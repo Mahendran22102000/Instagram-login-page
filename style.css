@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    margin:0 auto;
+    width:1200px;
+}
+.left-side-container{
+    width:50%;
+}
+.left-side-content{
+    width:500px;
+    height:700px;
+    /* background-color: aqua; */
+    background-image: url(media/screenshot1.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: absolute;
+    bottom: 17px;
+    right:688px ;
+    animation: change 20s infinite ease-in-out;
+}
+    /* .merge{
+        position: relative;
+        } */
+        .main{
+            margin-left: 190px;
+            margin-top: 25px;
+        }
+        @keyframes change{
+            0%{
+                background-image: url(media/screenshot1.png)
+            }
+            20%{
+                background-image: url(media/screenshot2.png)
+        
+            }
+            40%{
+                background-image: url(media/screenshot3.png)
+        
+            }
+            60%{
+                background-image: url(media/screenshot4.png)
+        
+            }
+            80%{
+                background-image: url(media/screenshot2.png)
+        
+            }
+            100%{
+                background-image: url(media/screenshot3.png)
+        
+            }
+        }
+.right-side-container{
+    width:50%;
+}
+.right-side-content{
+    margin-top: 40px;
+    width:450px;
+    text-align: center;
+}
+.right-side-content .instagram{
+    width:350px;
+    border:1px solid lightgray;
+}
+.right-side-content .sign-up{
+    width:350px;
+    border:1px solid lightgray;
+}
+.right-side-content .get{
+    width:350px;
+}
+.instagram .logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.instagram input{
+    border: 1px solid lightgray;
+    padding: 10px 8px;
+    width:75%;
+    font-size: 12px;
+    border-radius:3px;
+    outline:none;
+    margin-bottom: 8px;
+}
+.instagram input:focus{
+    border:1px solid gray;
+}
+.instagram button{
+    padding: 8px 8px;
+    width:75%;
+    border-radius:3px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0095F6;
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.instagram .or{
+    font-size: 11px;
+    color:gray;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.instagram .facebook{
+    margin-left: 8px;
+    color:darkblue;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.instagram .forgot{
+    color:black;
+    font-size: 12px;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+.sign-up{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sign-up .account{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+.sign-up .account a{
+    color:#0095F6;
+    margin-left: 5px;
+}
+.get span{
+    display:inline-block;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.get .microsoft{
+    margin-left: 3px;
+}
